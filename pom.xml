@@ -75,6 +75,7 @@
 
     <modules>
 
+        <module>tiktok-sdk</module>
     </modules>
 
     <properties>
@@ -89,6 +90,8 @@
         <mybatis-flex.version>1.11.1</mybatis-flex.version>
         <hutool.version>5.8.39</hutool.version>
     </properties>
+
+
 
     <profiles>
         <profile>
@@ -134,9 +137,24 @@
             </dependency>
             <!-- ////// 数据库相关 ////// -->
 
+
+            <dependency>
+                <groupId>com.asialjim.microapplet</groupId>
+                <artifactId>commons-zen-dependencies</artifactId>
+                <version>${com.asialjim.microapplet}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
             <dependency>
                 <groupId>com.asialjim.microapplet</groupId>
                 <artifactId>remote-zen-pom</artifactId>
+                <version>${com.asialjim.microapplet}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.asialjim.microapplet</groupId>
+                <artifactId>wechat-zen-pom</artifactId>
                 <version>${com.asialjim.microapplet}</version>
                 <type>pom</type>
                 <scope>import</scope>
