@@ -182,6 +182,14 @@
         </dependency>
     </dependencies>
 
+
+     <repositories>
+         <repository>
+             <id>douyin-openapi-repo</id>
+             <url>https://artifacts-cn-beijing.volces.com/repository/douyin-openapi/</url>
+         </repository>
+     </repositories>
+
     <build>
         <pluginManagement>
             <plugins>
@@ -389,5 +397,6 @@
             </plugin>
         </plugins>
     </build>
+
 
 </project>

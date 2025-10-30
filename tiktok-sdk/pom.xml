@@ -32,15 +32,9 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <tiktok.version>1.0.5</tiktok.version>
+        <tiktok.version>1.0.6</tiktok.version>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>douyin-openapi-repo</id>
-            <url>https://artifacts-cn-beijing.volces.com/repository/douyin-openapi/</url>
-        </repository>
-    </repositories>
 
     <dependencies>
         <dependency>
