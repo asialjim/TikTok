@@ -38,7 +38,7 @@ import java.util.Optional;
 @Data
 @Configuration
 @ConfigurationProperties(prefix = "tiktok.app")
-public class TikTokYamlConf implements TikTokConf, Serializable {
+public class  TikTokYamlConf implements TikTokConf, Serializable {
     @Serial
     private static final long serialVersionUID = 3986664727909496760L;
 
